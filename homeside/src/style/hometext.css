@@ -1,0 +1,25 @@
+.text-container {
+    max-width: 800px; /* set a maximum width for the container */
+  }
+  
+  .text-container p {
+    font-size: 45px; /* set a default font size */
+  }
+  
+  @media screen and (max-width: 600px) { /* apply styles for screens with a maximum width of 600px */
+    .text-container p {
+      font-size: 18px; /* decrease the font size */
+    }
+  }
+  
+  @media screen and (max-width: 400px) { /* apply styles for screens with a maximum width of 400px */
+    .text-container p {
+      font-size: 14px; /* further decrease the font size */
+    }
+    
+  }
+  @media screen and (max-width: 768px) {
+    .my-div {
+      display: none;
+    }
+  }

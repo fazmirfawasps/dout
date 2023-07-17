@@ -1,0 +1,12 @@
+.input-field-container {
+    position: relative;
+  }
+  
+  .input-field {
+    padding-left: 130px; /* add padding to make room for the icon */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+ 
+  
